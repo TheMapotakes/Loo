@@ -5,13 +5,13 @@
     // Status reporting code
     // Use this to report missing hardware, plugin or unsupported browser
     ext._getStatus = function() {
-        return {status: , msg: 'Not ready'};
+        return {status: 1, msg: 'Not ready'};
     };
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-        ['block type','block content','block function name']
+        [' ','status','getStatus']
         ]
     };
 
